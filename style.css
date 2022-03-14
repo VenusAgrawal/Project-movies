@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+header{
+    background-color: rgb(255, 41, 41);
+    width: 100vw;
+    color: white;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;  
+}
+header ul{
+    display:flex;  
+    justify-content: space-around; 
+       
+}
+header ul li{
+    list-style: none;
+    color: white;
+    
+}
+.btn{
+    background-color: rgb(255, 65, 65);
+    color: white;
+    font-size: large;
+    padding: 5px;
+    margin-top: 5% ;
+    margin-left: 20%;
+    border-radius: 10px;
+    border-color: rgb(255, 65, 65);
+    
+}
+.btn1{
+    border-radius: 15px;
+    border: 1px solid rgb(0, 0, 209);
+    background-color: white;
+    padding: 8px;
+}
+.btn2{
+    border-radius: 15px;
+    border: 1px solid turquoise;
+    background-color: white;
+    padding: 8px;
+}
+.btn3{
+    border-radius: 15px;
+    border: 1px solid rgb(255, 114, 138);
+    background-color: white;
+    padding: 8px;
+}
+header ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+
+}
+.container{
+    margin-top: 5%;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: row;
+}
+h3{
+    margin-bottom: 2%;
+}
+h5{
+    color: rgb(0, 0, 0);
+    font-size: large;   
+    padding-bottom: 5%;
+}
+p{
+    color:rgb(131, 131, 131) ;
+    padding-bottom: 5%;
+    text-align: justify;
+    padding-right: 30%;
+}
+.info{
+    padding-left: 5%;
+}
+footer{
+    background-color: black;
+    align-items: center;
+   margin-top: 2%;
+    
+}
+.icons .footer{
+    padding: 0;
+}
+.icons{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.icons ul{
+    display: flex;
+  
+}
+.icons ul li{
+    padding: 20%;
+    list-style: none;
+}
+.icons p{
+    padding-top: 5%;
+}
+
+@media only screen and (orientation:portrait){
+    h1{
+        font-size: 1.5rem;
+    }
+    header ul {
+        font-size: 1rem;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20%;
+    }
+    .icons{
+        display: flex;
+        flex-direction: column;
+    }
+}
