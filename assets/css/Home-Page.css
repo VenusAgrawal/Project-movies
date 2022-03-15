@@ -10,6 +10,7 @@ header{
     position: relative;
     height: 50px;
     background-color: red;
+    
 }
 
 header h1{
@@ -27,13 +28,15 @@ header ul{
     transform: translate(0%, 50%);
     color: white;
     
+    
 }
 
 header ul li{
-    display: inline-block;
+    display: inline;
     margin-right: 30px;
     font-size: 1rem;
     list-style: none;
+    align-items: center;
 }
 
 
